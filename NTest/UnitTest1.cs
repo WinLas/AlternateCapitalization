@@ -1,3 +1,5 @@
+using AlternateCapitalization;
+
 namespace NTest;
 
 public class Tests
@@ -11,5 +13,12 @@ public class Tests
     public void Test1()
     {
         Assert.Pass();
+    }
+
+    [Test]
+    public void Capitalize_EmptyString_ShouldReturnEmptyString()
+    {
+        var result = Kata.Capitalize("");
+        Assert.AreEqual(result, "");
     }
 }
