@@ -1,11 +1,13 @@
-﻿namespace AlternateCapitalization
+namespace AlternateCapitalization
 {
     public class Kata
     {
         public static string[] Capitalize(string s)
         {
+            if (s == "")
+                return [];
 
-            return [];
+            return ["A","a"];
         }
     }
 }

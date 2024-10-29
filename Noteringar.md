@@ -1,4 +1,4 @@
-Noteringar från navigatör
+Noteringar frï¿½n navigatï¿½r
 
 Kata:
 Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index 0 will be considered even.
@@ -10,5 +10,10 @@ The input will be a lowercase string with no spaces.
 https://www.codewars.com/kata/59cfc000aeb2844d16000075
 
 
-Första testet:
-- Skicka in en tom sträng
+Fï¿½rsta testet:
+- Skicka in en tom strï¿½ng
+
+Andra testet:
+- skicka in litet a 
+ska resultera med ['A', 'a']
+

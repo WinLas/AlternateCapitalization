@@ -14,11 +14,4 @@ public class Tests
     {
         Assert.Pass();
     }
-
-    [Test]
-    public void Capitalize_EmptyString_ShouldReturnEmptyString()
-    {
-        var result = Kata.Capitalize("");
-        Assert.AreEqual(result, "");
-    }
 }
